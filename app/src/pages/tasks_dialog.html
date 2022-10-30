@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>ATG 360</title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../../../node_modules/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="../includes/css/dialog.css">
+  <script>window.$ = window.jQuery = require('jquery');</script>
+  <script src="../../src/includes/js/popper.min.js"></script>
+  <script src="../../src/includes/js/popper.min.js"></script>
+  <script src="../../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+  <div class="container-fluid start-task-window">
+    <div class="row d-flex justify-content-center">
+      <div class=" col-12 text-center">
+
+        <div class="card">
+          <div class="atgtimer"><time class="tasktimer">00:00:00</time></div>
+          <h5 class="text-center mb-4 tasklabel">Start Your task</h5>
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true" style="color:#721C24">×</span>
+          </button>
+          <form class="form-card" onsubmit="event.preventDefault()">
+              <div class="alert alert-danger alert-dismissible fade show" id="description_alert" style="display: none;background-color: rgb(252, 7, 41);opacity: 1;color: rgb(255, 255, 255);max-width: 500px;margin: -14px auto 0;text-align: center;padding: 6px 0;font-size: 13px;"> <strong>Error! </strong>Description are required.  <a href="#" class="close-alert cross right-menu-alert">X</a></div>
+            <div class="inner-form-scroll">
+              <div class="row justify-content-between text-left">
+                <div class="form-group col-sm-12 flex-column d-flex clickTaskButton"> <label class="form-control-label">Select Your
+                    Project<span class="text-danger"> *</span></label>
+                  <select class="form-select projects" aria-label="Default select example">
+                    <option selected="">None</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row justify-content-between text-left">
+                <div class="form-group col-sm-12 flex-column d-flex"> <label class="form-control-label">Select Your
+                    Task<span class="text-danger"> *</span></label>
+                  <select class="form-select tasks" aria-label="Default select example">
+                    <option selected="">None</option>
+
+                  </select>
+
+                </div>
+              </div>
+              <div class="row justify-content-between text-left upperdiv" style="display:none;">
+                <div class="form-group col-sm-12 flex-column d-flex">
+                  <label class="form-control-label">What have you achieved? <span class="text-danger">*</span></label>
+                  <textarea class="description" rows="3" type="text" name="description"></textarea>
+                </div>
+              </div>
+              <div class="row text-center">
+                <div class="form-group col-sm-6 startbtn" style="display: none;">
+                  <button type="submit" class="btn-block btn-primary start">Start</button>
+                </div>
+                <div class="form-group col-sm-6 finishbtn" style="display: none;">
+                  <button type="submit" class="btn-block btn-primary finish">Finish</button>
+                </div>
+              </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="../includes/js/tasks_dialog.js"></script>
+
+</body>
+
+</html>

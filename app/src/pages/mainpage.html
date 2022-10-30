@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>ATG 360</title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="../../../node_modules/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="../../../node_modules/dragula/dist/dragula.css">
+
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <link rel="stylesheet" href="../includes/css/style.css">
+  <link rel="stylesheet" href="../../../node_modules/electron-tabs/electron-tabs.css">
+  <script>window.$ = window.jQuery = require('jquery');</script>
+  <script src="../../src/includes/js/popper.min.js"></script>
+  <script src="../../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <div class="main-dashboard-page">
+    <div class="inner-dashboard-page d-flex">
+      <div class="left-sidebar">
+        <button class="sidebar-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="logo text-center">
+          <img src="../includes/images/atg-extra-logo.png">
+        </div>
+        <div class="sidebar-menu">
+          <input class="searchApps" id="searchApps" type="text" placeholder="Search">
+          <ul class="menu-list">
+            <li class="show">
+              <a href="javascript:void(0)" class="dropdown-toggle wlcmHeader" data-toggle="dropdown"><i
+                  class="fa fa-user-circle"></i>Name
+              </a>
+              <ul class="sub-menu dropdown-menu user-login show">
+                <li><a href="" data-toggle="tooltip" title="Submit An Error" onclick="event.preventDefault();SubmitAnError();"><i
+                      class="fa fa-bug"></i>Submit an Error</a></li>
+                <li><a href="" data-toggle="tooltip" title="Logout" onclick="event.preventDefault();logout();"><i
+                      class="fa fa-sign-out"></i>Logout</a></li>
+              </ul>
+            </li>
+            <li class="show">
+              <!-- Side Menu Icons -->
+              <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown"><i class="fa-web-icon cst_bg_icon"></i> WEB
+                APPLICATIONS</a>
+              <ul class="sub-menu dropdown-menu dynamic-web-sidebar show">
+  
+              </ul>
+            </li>
+            <li class="show">
+              <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown"><i
+                  class="fa-desktop-icon cst_bg_desktop_icon"></i>DESKTOP APPLICATIONS</a>
+              <ul class="sub-menu dynamic-desktop-sidebar dropdown-menu show">
+                <!-- <li><a href="" data-toggle="tooltip" title="Trams"
+                    onclick="event.preventDefault();launchExternalApp();"><i class="fa-trams-icon cst_bg_icon"><img
+                        src="../includes/images/trams-icon-hover.png"></i>Trams</a></li>
+                <li><a href="" data-toggle="tooltip" title="IBank Upload"
+                    onclick="event.preventDefault();launchExternalApp();"><i class="fa-ibank-icon cst_bg_icon"><img
+                        src="../includes/images/ibank-icon-hover.png"></i>IBank Upload</a></li>
+                <li><a href="" data-toggle="tooltip" title="Arc upload"
+                    onclick="event.preventDefault();launchExternalApp();"><i class="fa-arc-icon cst_bg_icon"><img
+                        src="../includes/images/arc-icon-hover.png"></i>Arc upload</a></li>
+                <li><a href="" data-toggle="tooltip" title="abre Tool to add PNRs"
+                    onclick="event.preventDefault();launchExternalApp();"><i class="fa-sabre-icon cst_bg_icon"><img
+                        src="../includes/images/sabre-icon-hover.png"></i>Sabre Tool to add PNRs</a></li>
+                <li><a href="" data-toggle="tooltip" title="FilesZilla"
+                    onclick="event.preventDefault();launchExternalApp();"><i class="fa-fz-icon cst_bg_icon"><img
+                        src="../includes/images/fz-icon-hover.png"></i>FilesZilla</a></li> -->
+
+                  <!-- <a class="right-event-icon-pin linkDisable linkDisabled" onclick="event.preventDefault();openLinkExternally(this)" href="">
+                                 <i class="fa fa-thumb-tack"></i>
+                            </a> -->
+              </ul>
+            </li>
+          </ul>
+          <div class="sidebar-copy-right">
+            <span>Version: 1.1</span>
+            <p>&copy;Copyrights atgtravel.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="right-content">
+        <div class="header-main">
+          <div class="top-header d-flex">
+            <div class="center-logo-logo text-center">
+            </div>
+            <div class="atg-head-timer">
+              <h1 class="atgtimer">
+                <time class="tasktimer">00:00:00</time>
+                <!-- <div class="cst-tooltip">
+                  <span>Current Time: <strong>-- hr</strong></span>
+                  <span>Elapsed time: <strong>-- hr</strong></span>
+                  <span>Today's total time: <strong>-- hr</strong></span>
+                </div> -->
+              </h1>
+              <div class="head-control-button">
+                <a href="" class="playbutton" onclick="event.preventDefault();open_task_window()"><i
+                    class="fa fa-play"></i></a>
+                <a class="pausebutton" style="display: none;" href=""
+                  onclick="event.preventDefault();open_task_window()"><i class="fa fa-stop"></i></a>
+              </div>
+            </div>
+            <div id="login-alert" class="login-alert">
+              <p class="login-para">It seems you're working without starting a task. Please start a task to log your time.</p>
+              <!-- <a href="#" class="close-alert close-button1"><i class="fa fa-close"></i></a> -->
+            </div>
+            <div class="page-controller">
+            </div>
+          </div>
+          <div class="header-bottom d-flex">
+          </div>
+        </div>
+        <!-- this html is for Ifram webviews -->
+        <div id="tabsdiv" style="display: none;">
+          <div class="etabs-tabgroup">
+            <div class="etabs-tabs"></div>
+            <div class="etabs-buttons"></div>
+          </div>
+          <div class="icon-bar">
+            <span class="etabs-tab-icon"><button class="etabs-tab-button-left fa fa-arrow-left"></button> <button class="etabs-tab-button-right fa fa-arrow-right"></button> <button class="etabs-tab-button-refresh fa fa-refresh fa-spin"></button></span>
+          </div>
+          <div class="etabs-views"></div>
+        </div>
+        <!-- End -->
+        <div class="center-content">
+          <!-- <div class="timer_alert_message">
+          </div> -->
+          <div class="center-links-boxes pt-5" style="" id="mainDiv">
+            <div class="search-bar">
+              <input type="text"  class="searchDashboradApps"  id="searchDashboradApps" placeholder="Search">
+              <!-- <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a> -->
+            </div> 
+            <div class="web-deks-apps">
+              <div class="pages-links web-app">
+                <h3>web applications</h3>
+                <ul class="d-flex dynamic-apps-web  app-list">
+                
+                </ul>
+
+              </div>
+              <div class="pages-links desktop-app">
+                <h3>Desktop APPLICATIONS</h3>
+
+                <ul class="d-flex dynamic-desktop-apps app-list">
+
+                </ul>
+                <!-- <ul class="d-flex  app-list">
+                  <li><a href="" onclick="event.preventDefault();launchExternalApp(this);"><i
+                        class="fa-trams-icon cst_bg_icon"><img
+                          src="../includes/images/trams-icon-lg.png"></i><span>Trams</span></a></li>
+                  <li><a href="" onclick="event.preventDefault();launchExternalApp('filezilla');"><i
+                        class="fa-ibank-icon cst_bg_icon"><img src="../includes/images/ibank-icon-lg.png"></i><span> IBank
+                        Upload</span></a></li>
+                  <li><a href="" onclick="event.preventDefault();launchExternalApp(this);"><i
+                        class="fa-arc-icon cst_bg_icon"><img src="../includes/images/arc-icon-lg.png"></i><span>Arc
+                        upload</span></a></li>
+                  <li><a href="" onclick="event.preventDefault();launchExternalApp();"><i
+                        class="fa-sabre-icon cst_bg_icon"><img src="../includes/images/sabre-icon-lg.png"></i><span>Sabre
+                        Tool to add PNRs</span></a></li>
+                  <li><a href="" onclick="event.preventDefault('filezilla');launchExternalApp('filezilla');"><i
+                        class="fa-fz-icon cst_bg_icon"><img
+                          src="../includes/images/fz-icon-lg.png"></i><span>Filezilla</span></a></li>
+                </ul> -->
+
+                
+              </div>
+            </div>
+          </div>
+          <!-- <div class="desktop_alert_message">
+          </div> -->
+          <!-- <div class="internet-status-message">
+          </div>
+          <div class="logout-alert-message">
+          </div> -->
+
+        </div>
+
+
+
+        <div class="bottom-user-timer">
+          <div class="inner-right-time">
+            <!-- <div class="cst-tooltip">
+              <span>Current Time: <strong>-- hr</strong></span>
+              <span>Elapsed time: <strong>-- hr</strong></span>
+              <span>Today's total time: <strong>-- hr</strong></span>
+            </div> -->
+            <time class="right-time loginTimer">12 <span>:</span> 32 <span>:</span> 56</time>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+  <div class="timer_alert_message">
+  </div>
+  <div class="desktop_alert_message">
+  </div>
+  <div class="internet-status-message">
+  </div>
+  <div class="logout-alert-message">
+  </div>
+  <div class="submit-an-error"> 
+      <div class="start-task-alert errorBlock" style="display: none">
+          <div class="inner-start-task-alert">
+              <a href="#" onclick="SubmitAnErrorCancel()" class="close-alert right-menu-alert">
+              <i class="fa fa-close"></i>
+              </a>
+              <div class="inner-start-task-form">
+                  <div class="form-group">
+                      <label>Submit An Error</label>
+                      <form action="">
+                          Title: <input type="text" name="errorTitle" class="errorTitle">
+                          <br>
+                          Description: <input type="textarea" name="errorDescription" class="errorDescription">    
+                      </form>
+                  </div>
+              </div>
+              <button class="alert-button submitErrorBtn">Submit</button>
+          </div>
+      </div>
+  </div>
+
+  <!-- <div id="contextMenu" class="context-menu" 
+  style="display:none">
+  <ul>
+      <li><a href="#">Open in a new tab</a></li>
+  </ul>
+</div> -->
+
+<p id="version"></p>
+<div id="notification" class="hidden">
+    <p id="message"></p>
+    <!-- <button id="close-button" onClick="closeNotification()">
+      Close
+    </button> -->
+    <button id="restart-button" onClick="restartApp()" class="hidden">
+      Restart
+    </button>
+  </div>
+
+
+
+  <script src="../includes/js/mainpage.js"></script>
+  <script type="text/javascript">
+    $(".sidebar-toggle").click(function () {
+      $("body").toggleClass("open-sidebar");
+    });
+    $(document).ready(function () {
+      $('[data-toggle="tooltip"]').tooltip();
+     setTimeout(() => {
+      // $('.tasks-sel').select2();
+     }, 3000); 
+
+    });
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+{
+  "filezilla.exe": {
+    "windowName": "Check for Updates",
+    "time": 24.796999999999997,
+    "pids": {
+      "720": "active",
+      "11892": "active"
+    }
+  },
+  "electron.exe": {
+    "windowName": "ATG 360",
+    "time": 18.985,
+    "pids": {
+      "10704": "active"
+    }
+  }
+}

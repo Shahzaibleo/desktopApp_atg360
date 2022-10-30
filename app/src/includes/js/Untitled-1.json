@@ -1,0 +1,1008 @@
+{
+  "Proj_tasks": [
+    {
+      "id": "1",
+      "name": "ATG Profile Management",
+      "url": null,
+      "icon": null,
+      "appType": "web",
+      "tasks": [
+        { "id": "49", "name": "SSO for External users" },
+        { "id": "179", "name": "Publish Traveler Profile to Concur" },
+        { "id": "180", "name": "Publish Traveler Profile To Sabre" },
+        { "id": "181", "name": "Publish Traveler Profile to ARGO" },
+        { "id": "182", "name": "Publish Traveler Profile to Cytric" },
+        { "id": "183", "name": "Publish Traveler Profile to Amadeus" },
+        { "id": "184", "name": "Publish Traveler Profile to Get There" },
+        { "id": "185", "name": "Publish Traveler Profile to Ctrip" },
+        {
+          "id": "24",
+          "name": "ATG PFMS (Django) Requirements and milestones of Agency, Entity & Traveler Form"
+        },
+        {
+          "id": "44",
+          "name": "ATG PFMS With Ionic/Node.Js {{Hours logged from the beginning}}"
+        },
+        {
+          "id": "25",
+          "name": "Agent Role and implementation in overall project."
+        },
+        {
+          "id": "45",
+          "name": "Logs of user activities & Translation work finalization"
+        },
+        { "id": "46", "name": "R & D to publish all profiles to OBTs" }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "ATG HR Data Quality Editor",
+      "url": null,
+      "icon": null,
+      "appType": "web",
+      "tasks": [
+        { "id": "78", "name": "Finalize the Esthetic changes in the Editor" },
+        { "id": "222", "name": "User Activity Report" },
+        { "id": "230", "name": "Employee Lookup Module" },
+        { "id": "246", "name": "Scheduling  Pre HRFeed" },
+        { "id": "253", "name": "Final Changes in the Editor" },
+        {
+          "id": "50",
+          "name": "HR-Feed Dashboard To correct the Bad records {{Hours logged from the beginning}}"
+        },
+        { "id": "161", "name": "Compare User Lookup Count with Feeds" },
+        { "id": "6", "name": "Commit Process for All companies" },
+        { "id": "201", "name": "Coordinate marketing collateral with Paula" }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "ATG Vortal & TravelSPACE Admin Help Desk ",
+      "url": "https://atgtravel.com/portal/atgts/",
+      "icon": "travel-space-icon.png",
+      "appType": "web",
+      "tasks": [
+        { "id": "10", "name": "Testing of some Modules and Style Issue fixes" },
+        { "id": "70", "name": "New modules requests" },
+        {
+          "id": "53",
+          "name": "ATG Help Desk Dashboard {{Hours logged from the beginning}}"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "ATG Extra",
+      "url": "https://extra.atgtravel.com/",
+      "icon": "atg-extra-icon.png",
+      "appType": "web",
+      "tasks": [
+        { "id": "269", "name": "V2 Responsiveness & Deployment on Dev Server" },
+        { "id": "292", "name": "Live Support" },
+        {
+          "id": "83",
+          "name": "Update user permissions and finalize configuration setup"
+        },
+        { "id": "195", "name": "User group reviews" },
+        {
+          "id": "205",
+          "name": "Enhance the View of Ticket Types Listing page"
+        },
+        { "id": "227", "name": "Create Logins for ATG Extra" },
+        {
+          "id": "228",
+          "name": "Account Association w.r.t Country and Client (V2)"
+        },
+        { "id": "229", "name": "Embed IORAD tutorials in ATG Extra" },
+        { "id": "234", "name": "Import Data from ITrack to ATG Extra" },
+        { "id": "244", "name": "Escalation Rules Implementation" },
+        { "id": "245", "name": "Config ATG Extra on 123" },
+        {
+          "id": "41",
+          "name": "ATG Extra (End User & Agent Panel) {{Hours logged from the beginning.}}"
+        },
+        { "id": "31", "name": "Database Design for Phase 3 only" },
+        { "id": "30", "name": "Administration Panel (Last Phase)" },
+        {
+          "id": "47",
+          "name": "Uploading Project on Dev Server. Handling Live Server Issue and testing."
+        },
+        {
+          "id": "158",
+          "name": "Add Currency Field in the Ticket Creation Form & Use it in Reports"
+        },
+        { "id": "159", "name": "Add Ticket Hub Tab" },
+        { "id": "160", "name": "Automate Account Information" },
+        { "id": "94", "name": "Marketing material to Paula" },
+        { "id": "198", "name": "US Internal Deployment" },
+        { "id": "210", "name": "Updates needed to New ATG | Extra" },
+        { "id": "199", "name": "EMEA Internal Deployment" },
+        { "id": "200", "name": "Global Partner Deployment" }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "ATG QIC daily tickets",
+      "url": "http://qic.atg.travel/scp/login.php",
+      "icon": "qc-icon.png",
+      "appType": "web",
+      "tasks": [
+        { "id": "8", "name": "QIC Login" },
+        { "id": "9", "name": "Migrate QIC Osticket to latest version" },
+        { "id": "56", "name": "Daily Routine QIC Work" },
+        { "id": "54", "name": "QIC Tickets " }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "ATG Portal CFC to Python Classes(API)",
+      "url": null,
+      "icon": null,
+      "appType": "web",
+      "tasks": [
+        { "id": "11", "name": "Convert all python classes response to JSON " }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "ATG HR-Feed Migration  (Kubernetes)",
+      "url": null,
+      "icon": null,
+      "appType": "web",
+      "tasks": [
+        {
+          "id": "42",
+          "name": "HR-Feed Migration -- {{Hours logged from the beginning}}"
+        },
+        { "id": "43", "name": "HR-Feed Migration (Use MS Azure DB)" },
+        { "id": "4", "name": "Deployment to IBM cloud" },
+        { "id": "5", "name": "Improve the TMP files Process " },
+        {
+          "id": "67",
+          "name": "Update Container feed with the new SFTP locations"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "ATG PNR Tool",
+      "url": "https://data.atgtravel.com/login?next=/",
+      "icon": "eqs-pnr-icon.png",
+      "appType": "web",
+      "tasks": [
+        { "id": "18", "name": "Add celery Tasks for Monthly/weekly broadcast" },
+        {
+          "id": "19",
+          "name": "Merge The PNR tool with the Django Project Provided by Eslam"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "ATG EZMail Workbench (ColdFusion conversion to Python/Django)",
+      "url": null,
+      "icon": null,
+      "appType": "web",
+      "tasks": [
+        {
+          "id": "51",
+          "name": "EzMail Workbench (CF to Django) {{Hours logged from the beginning.}}"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "ATG M & E Admin (ColdFusion conversion to Python/Django)",
+      "url": null,
+      "icon": null,
+      "appType": "web",
+      "tasks": [
+        { "id": "22", "name": "Create APIs of all the Backend work" },
+        { "id": "23", "name": "Create the Web Interfaces in Django APP " }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "ATG Server Mapping",
+      "url": null,
+      "icon": null,
+      "appType": "web",
+      "tasks": [
+        { "id": "39", "name": "ATG Servers Diagram After Migration" },
+        {
+          "id": "35",
+          "name": "ATG Database Server TSSQL Documentation regarding all databases, schedule tasks and alerts"
+        },
+        { "id": "32", "name": "ATG Live Server - ATGWEB1 Documentation" },
+        { "id": "38", "name": "ATG Dev Server - Junipertest documentation" },
+        { "id": "40", "name": "ATG Servers Diagram Prior Migration" }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "TravelSPACE implementation",
+      "url": null,
+      "icon": null,
+      "appType": "web",
+      "tasks": [
+        { "id": "33", "name": "Vortal Reskining of Old Vortal to TravelSPACE" },
+        {
+          "id": "72",
+          "name": "Update overview document with new skins/URL - change verbiage to TravelSPACE"
+        },
+        {
+          "id": "34",
+          "name": "Make Help Desk Module & Script to Migrate Company & Users"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "name": "ATG Merck ATG Request For (DE, CH & AU)",
+      "url": null,
+      "icon": null,
+      "appType": "web",
+      "tasks": [{ "id": "37", "name": "Merck - Request form modificatin" }]
+    },
+    {
+      "id": "17",
+      "name": "ATG Misc. Tasks",
+      "url": null,
+      "icon": null,
+      "appType": "web",
+      "tasks": [
+        { "id": "279", "name": "Concur SSO for Mobile" },
+        { "id": "280", "name": "Meeting" },
+        { "id": "282", "name": "CRM" },
+        { "id": "57", "name": "Daily Routine Work" },
+        { "id": "250", "name": "Running Forward Script" },
+        {
+          "id": "55",
+          "name": "ATG Vortals Daily Work {{Hours logged from the beginning}}"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "name": "ATG Server Migration",
+      "url": null,
+      "icon": null,
+      "appType": "web",
+      "tasks": [
+        { "id": "59", "name": "Move TS24Web to Ms Azure Host: 40.117.209.123" },
+        { "id": "60", "name": "Move ATGWeb1 to Ms Azure Host: 40.121.45.211" },
+        { "id": "61", "name": "Move TSSQL to MS Azure SQL server" },
+        { "id": "58", "name": "HR Feed Migration from TSweb to 10.0.0.111" }
+      ]
+    },
+    {
+      "id": "19",
+      "name": "ATG IT Support",
+      "url": null,
+      "icon": null,
+      "appType": "web",
+      "tasks": [{ "id": "62", "name": "Daily Routine IT Support Work" }]
+    },
+    {
+      "id": "20",
+      "name": "ATG Documentations & Videos of All ATG products",
+      "url": null,
+      "icon": null,
+      "appType": "web",
+      "tasks": [
+        { "id": "82", "name": "Documentation of mysql installation" },
+        { "id": "122", "name": "ATG Vault Embed Tool Documentation" },
+        { "id": "123", "name": "HR Data Quality Editor Documentation" },
+        { "id": "124", "name": "ATG EQX PNR Update  v2 Documentation" },
+        { "id": "125", "name": "ATG Booking Bot with Watson Documentation" },
+        { "id": "126", "name": "ATG Profile Management System Documenation" },
+        { "id": "204", "name": "ATG Merck VDE Form Documenation" },
+        { "id": "241", "name": "Portal CFC Documentation" },
+        {
+          "id": "63",
+          "name": "ATG Extra Admin panel User Manual & Training Videos"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "name": "ATG Copperline US ",
+      "url": null,
+      "icon": null,
+      "appType": "web",
+      "tasks": [
+        {
+          "id": "65",
+          "name": "Complete the whole site with ne design and make it responsive and deployed"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "name": "ATG Travel WP ( to be closed - and tracked in ATG Request customizations)",
+      "url": null,
+      "icon": null,
+      "appType": "web",
+      "tasks": []
+    },
+    {
+      "id": "24",
+      "name": "ATG EQX/Power BI Scripts for Pricing & Billing",
+      "url": null,
+      "icon": null,
+      "appType": "web",
+      "tasks": [
+        { "id": "259", "name": "Process Master Trip/UDID Files" },
+        {
+          "id": "260",
+          "name": "Process Monthly Merck Invoices to Sync with LWB"
+        },
+        { "id": "261", "name": "Merck Turkey Raw Script" },
+        { "id": "262", "name": "Merck India Raw Script" },
+        { "id": "263", "name": "Merck ATS Raw Script" },
+        { "id": "265", "name": "Run Weekly / Monthly EQX /BO scripts" },
+        {
+          "id": "266",
+          "name": "Master Script Rules Documentation and Final File"
+        },
+        { "id": "276", "name": "Hotel Spend Issue" },
+        { "id": "281", "name": "Grasp Transaction" },
+        { "id": "289", "name": "Wargaming Grasp" },
+        { "id": "290", "name": "Sync New Accounts" },
+        {
+          "id": "293",
+          "name": "Analysis Data/Changes in Scripts/ Live Queries"
+        },
+        { "id": "68", "name": "Run EQX scripts and Create Looker DB tables" },
+        { "id": "254", "name": "Sabre Profile WebService" }
+      ]
+    },
+    {
+      "id": "25",
+      "name": "ATG Vault Embed Tool (ATG Insights readiness)",
+      "url": "https://atgtravel.com/portal/power_bi/",
+      "icon": "embed-tool-icon.png",
+      "appType": "web",
+      "tasks": [
+        {
+          "id": "69",
+          "name": "Create a tool that can be used to embed reports on Sharepoint"
+        },
+        { "id": "92", "name": "ATG Insights Marketing material" },
+        { "id": "162", "name": "Enhance Look & Feel to Display Reports" },
+        { "id": "163", "name": "User Roles Implementations" },
+        { "id": "164", "name": "Implement Report Embedding" },
+        { "id": "232", "name": "SSO to ATG Vault Embed Tool" }
+      ]
+    },
+    {
+      "id": "26",
+      "name": "ATG Docker Apps Planning",
+      "url": null,
+      "icon": null,
+      "appType": "web",
+      "tasks": [
+        {
+          "id": "71",
+          "name": "R & D to work on all the cases that we can use to dockerize the applications"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "name": "ATG Resource Center (MVP)",
+      "url": null,
+      "icon": null,
+      "appType": "web",
+      "tasks": [
+        { "id": "84", "name": "Add Security and Privacy Training" },
+        { "id": "85", "name": "Add TravelSpace site listings" },
+        { "id": "86", "name": "Add VORTAL listings" },
+        { "id": "80", "name": "HR Feed Info." }
+      ]
+    },
+    {
+      "id": "28",
+      "name": "ATG TravelSPACE generalization",
+      "url": null,
+      "icon": null,
+      "appType": "web",
+      "tasks": [
+        { "id": "225", "name": "Working on Implementation of SAML SSO" },
+        { "id": "226", "name": "Home Page Implementation W.R.T Clients" },
+        { "id": "233", "name": "Home page Products SSO Generalization" },
+        { "id": "248", "name": "TravelSPACE Generalization with Helpdesk" },
+        { "id": "249", "name": "Planning of Tracking User History" },
+        {
+          "id": "169",
+          "name": "Understand Portal CFC and how to use it for Generalization"
+        },
+        {
+          "id": "168",
+          "name": "Create a routing scenario to point each given URL to same Directory"
+        },
+        { "id": "167", "name": "Make a Work Flow Diagram" },
+        {
+          "id": "170",
+          "name": "Make a documentation of all the workflow for Phase 1"
+        },
+        { "id": "171", "name": "Work on Login Page WRT Client." },
+        {
+          "id": "172",
+          "name": "Work on Reset Password /Forgot Password Screen"
+        },
+        { "id": "173", "name": "Work on Authentication Process WRT Clients" },
+        { "id": "174", "name": "Home Page Planning W.R.T Clients" }
+      ]
+    },
+    {
+      "id": "29",
+      "name": "ATG Employee Portal migration to ATG | Connect",
+      "url": "https://atgtravel.com/portal/employeeportal/index.cfm",
+      "icon": "ep-icon.png",
+      "appType": "web",
+      "tasks": []
+    },
+    {
+      "id": "30",
+      "name": "ATG Engage to Sharepoint",
+      "url": "http://atgengage.com/login/",
+      "icon": "sharepoint-icon.png",
+      "appType": "web",
+      "tasks": [{ "id": "243", "name": "Phase 1 ATG Engage Sharepoint Site" }]
+    },
+    {
+      "id": "31",
+      "name": "ATG PNR Fetch Web Services",
+      "url": null,
+      "icon": null,
+      "appType": "web",
+      "tasks": [
+        { "id": "96", "name": "Web service to fetch PNRS and store in DB" },
+        { "id": "95", "name": "Event notification service" }
+      ]
+    },
+    {
+      "id": "32",
+      "name": "ATG EQX monitoring and Alarms",
+      "url": null,
+      "icon": null,
+      "appType": "web",
+      "tasks": []
+    },
+    {
+      "id": "33",
+      "name": "ATG IT Security and Privacy Training",
+      "url": null,
+      "icon": null,
+      "appType": "web",
+      "tasks": [
+        { "id": "128", "name": "User tracking mechanism for SharePoint site " },
+        {
+          "id": "165",
+          "name": "Configure MS Covid 19 kit to SharePoint site."
+        },
+        {
+          "id": "255",
+          "name": "Create a Tracking Form for Manager (On SharePoint Resource Center)"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "name": "ATG EQX PNR Update  v2",
+      "url": null,
+      "icon": null,
+      "appType": "web",
+      "tasks": [
+        { "id": "294", "name": "Documentation" },
+        { "id": "73", "name": "Make clone of EQX PNR Update" },
+        { "id": "166", "name": "Demo Proof of Concept" }
+      ]
+    },
+    {
+      "id": "35",
+      "name": "ATG Request Generalization",
+      "url": null,
+      "icon": null,
+      "appType": "web",
+      "tasks": []
+    },
+    {
+      "id": "36",
+      "name": "ATG CMH Office Moves",
+      "url": null,
+      "icon": null,
+      "appType": "web",
+      "tasks": []
+    },
+    {
+      "id": "37",
+      "name": "Baldwin Booking Butler",
+      "url": null,
+      "icon": null,
+      "appType": "web",
+      "tasks": [
+        { "id": "286", "name": "Documentation" },
+        { "id": "79", "name": "Started implementation on IBM Watson" },
+        { "id": "193", "name": "Complete the Reservation Process" },
+        { "id": "194", "name": "Workflow Enhancements " },
+        {
+          "id": "190",
+          "name": "Deploy the First use case to Demo TravelSpace"
+        },
+        {
+          "id": "191",
+          "name": "Sabre API to Fetch Low Fares and Seats Availability "
+        },
+        { "id": "192", "name": "Complete the Traveler Verification Process" }
+      ]
+    },
+    {
+      "id": "38",
+      "name": "ATG General Assistance Bot  (Internal)",
+      "url": null,
+      "icon": null,
+      "appType": "web",
+      "tasks": []
+    },
+    {
+      "id": "39",
+      "name": "ATG Approve V1",
+      "url": null,
+      "icon": null,
+      "appType": "web",
+      "tasks": [
+        { "id": "76", "name": "Complete the Dynamic Email Process " },
+        { "id": "77", "name": "Work to store Booking PCC into DB" },
+        {
+          "id": "87",
+          "name": "Cornerstone functionality mapped and routines validated - (Lena)j"
+        },
+        { "id": "88", "name": "Validate code from Shree Partners" },
+        { "id": "90", "name": "Product documentation" },
+        { "id": "89", "name": "Marketing material with Paula" }
+      ]
+    },
+    {
+      "id": "40",
+      "name": "ATG Nucoat IT/Helpdesk Assistance",
+      "url": "filezilla",
+      "icon": "fz-icon.png",
+      "appType": "desktop",
+      "tasks": [
+        { "id": "74", "name": "Troubleshoot Computer/OneDrive issues" },
+        { "id": "75", "name": "Troubleshoot Phone Issues" },
+        { "id": "97", "name": "Interview candidates" },
+        { "id": "98", "name": "formalize agreement for on  call" },
+        { "id": "110", "name": "Setting Up New Nucoat User" }
+      ]
+    },
+    {
+      "id": "41",
+      "name": "ATG Gitlab Implementation (Product Versioning)",
+      "url": null,
+      "icon": null,
+      "appType": "web",
+      "tasks": [
+        { "id": "105", "name": "ATG Extra Gitlab Implementation" },
+        {
+          "id": "106",
+          "name": "ATG Profile Management System Gitlab Implementation"
+        },
+        {
+          "id": "107",
+          "name": "ATG HR Data Quality Editor Gitlab Implementation"
+        },
+        { "id": "108", "name": "ATG Vault Embed Tool Gitlab Implementation" },
+        { "id": "109", "name": "ATG Booking Bot Gitlab Implementation" },
+        { "id": "121", "name": "ATG EQX PNR Update  v2 Gitlab Implementation" },
+        { "id": "240", "name": "Scheduled Scripts Gitlab Implementation" }
+      ]
+    },
+    {
+      "id": "42",
+      "name": "ATG System Monitoring & System Health Dashboard",
+      "url": null,
+      "icon": null,
+      "appType": "web",
+      "tasks": []
+    },
+    {
+      "id": "43",
+      "name": "New Hire and Termination procedures and Checklist",
+      "url": null,
+      "icon": null,
+      "appType": "web",
+      "tasks": [
+        {
+          "id": "100",
+          "name": "Establish inventory of all systems and administrators"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "name": "ATG 360",
+      "url": null,
+      "icon": null,
+      "appType": "web",
+      "tasks": [
+        { "id": "258", "name": "V1.1 Tracking of Desktop Apps" },
+        { "id": "212", "name": "Design new dashboard for ATG Agent Desktop" },
+        {
+          "id": "239",
+          "name": "V1: Proof of Concept (For Web Interface embed & Desktop App launch)"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "name": "System/user Access Management ",
+      "url": null,
+      "icon": null,
+      "appType": "web",
+      "tasks": []
+    },
+    {
+      "id": "46",
+      "name": "Data governance and compliance",
+      "url": null,
+      "icon": null,
+      "appType": "web",
+      "tasks": [{ "id": "101", "name": "Launch" }]
+    },
+    {
+      "id": "47",
+      "name": "Global Ops Process Improvement",
+      "url": null,
+      "icon": null,
+      "appType": "web",
+      "tasks": [
+        { "id": "104", "name": "Team Owned PNR's" },
+        { "id": "102", "name": "Proposal Limitations Policy" },
+        { "id": "103", "name": "Script - IQCX Review" }
+      ]
+    },
+    {
+      "id": "48",
+      "name": "ATG Insights Dashboard Creation",
+      "url": null,
+      "icon": null,
+      "appType": "web",
+      "tasks": [
+        { "id": "270", "name": "Merck Invoice Dashboard" },
+        { "id": "271", "name": "QIC Dashboard" },
+        { "id": "272", "name": "Travel Management Dashboard" },
+        { "id": "277", "name": "Merck Invoice Dashoboard" },
+        { "id": "284", "name": "Data Quality Dashboard" },
+        { "id": "285", "name": "Wargaming PNR Dashboard" },
+        { "id": "287", "name": "CO2 Emission Dashboard" },
+        { "id": "291", "name": "Refresh Power BI Reports" },
+        { "id": "223", "name": "Comparative Analysis Report" },
+        { "id": "224", "name": "Top Spend Report" },
+        { "id": "235", "name": "Safelite Hotel Concertiv Dashboard" },
+        { "id": "247", "name": "Desktop Dashboard" },
+        { "id": "252", "name": "Alert System Dashboard" },
+        { "id": "214", "name": "Merck Quantum Report" },
+        { "id": "215", "name": "Merck Compliance Dashboard" },
+        { "id": "115", "name": "Sprout ETL Dashboard" },
+        { "id": "112", "name": "Greif Scorecard Dashboard" },
+        { "id": "188", "name": "R & D Overview Dashboard" },
+        { "id": "111", "name": "ATG|Vault CO2 Dashboard" },
+        { "id": "113", "name": "Wargaming CFO Report" },
+        { "id": "114", "name": "Account Management Dashboard" },
+        { "id": "189", "name": "Welbilt Scorecard Dashboard " },
+        { "id": "216", "name": "Safelite Hotel Dashboard" },
+        { "id": "217", "name": "Account Overview Dashboard (External)" },
+        { "id": "218", "name": "Data Monitoring Dashboard" },
+        { "id": "257", "name": "Transaction Analysis" }
+      ]
+    },
+    {
+      "id": "49",
+      "name": "Global Ops 2021 Goals",
+      "url": null,
+      "icon": null,
+      "appType": "web",
+      "tasks": [
+        { "id": "120", "name": "Innovate - Internal Ops Management Dashboard" },
+        {
+          "id": "150",
+          "name": "Performance - 2021 Team goals defined and communicated"
+        },
+        { "id": "119", "name": "Innovate - NDC Implementation" },
+        {
+          "id": "149",
+          "name": "Grow - NL team member trained and working on IQCX routines by May 1"
+        },
+        {
+          "id": "148",
+          "name": "Grow - 100% of eligible partners using EQX by end of June"
+        },
+        { "id": "147", "name": "Grow - Successful ZF EMEA Implementation" },
+        { "id": "146", "name": "Innovate - Global Agent Desktop Application" },
+        {
+          "id": "117",
+          "name": "Happy Customer - Survey Results: 97% Satisfied or Very Satisfied \"Friendliness of Staff\""
+        },
+        {
+          "id": "118",
+          "name": "Happy Customer - Survey Results: 95% Sat or Very Sat \"Knowledge/Competence of Staff\""
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "name": "Global Ops EQX Compliance",
+      "url": null,
+      "icon": null,
+      "appType": "web",
+      "tasks": [
+        { "id": "203", "name": "AAAA - EQX and Proper PNR instructions" },
+        { "id": "202", "name": "AAAA - Communication to Partners" },
+        { "id": "131", "name": "UAE, Saudi Arabia" },
+        { "id": "213", "name": "UK" },
+        { "id": "134", "name": "Taiwan" },
+        { "id": "136", "name": "Belgium" },
+        { "id": "140", "name": "Italy" },
+        { "id": "141", "name": "Switzerland" },
+        { "id": "143", "name": "Spain/Portugal" },
+        { "id": "144", "name": "Vietnam" },
+        { "id": "236", "name": "Brazil" },
+        { "id": "237", "name": "Mexico" },
+        { "id": "133", "name": "South Korea" },
+        { "id": "135", "name": "Japan" },
+        {
+          "id": "137",
+          "name": "Singapore (Malaysia, Philippines, Thailand, Singapore)"
+        },
+        { "id": "138", "name": "Australia" },
+        { "id": "139", "name": "India" },
+        { "id": "142", "name": "Poland" }
+      ]
+    },
+    {
+      "id": "51",
+      "name": "MIS 2021 Goals",
+      "url": null,
+      "icon": null,
+      "appType": "web",
+      "tasks": [
+        {
+          "id": "157",
+          "name": "True Believers - ATG|Insights Product Catalog"
+        },
+        {
+          "id": "151",
+          "name": "Innovate - 2 External Dashboards designed and submitted per month"
+        },
+        {
+          "id": "152",
+          "name": "Innovate - 1 Internal Dashboard Designed and Submitted per month"
+        },
+        {
+          "id": "153",
+          "name": "Grow - 1 External Dashboard Released per Month"
+        },
+        {
+          "id": "154",
+          "name": "Grow - 1 Internal Dashboard Released per Month"
+        },
+        {
+          "id": "155",
+          "name": "Happy Customer - 100% of released dashboards have documentation provided to Paula"
+        },
+        {
+          "id": "156",
+          "name": "Happy Customer - 100% of dashboards released have metric glossary"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "name": "Merck VDE",
+      "url": null,
+      "icon": null,
+      "appType": "web",
+      "tasks": [
+        { "id": "273", "name": "Sync CC to Sabre Profiles" },
+        { "id": "175", "name": "Standalone Request Form for VDE " },
+        { "id": "176", "name": "Add MultiCar Option for Car Service" },
+        { "id": "177", "name": "Create Workbench Email Template " },
+        { "id": "178", "name": "Test and review all changes " }
+      ]
+    },
+    {
+      "id": "53",
+      "name": "ATG Survey",
+      "url": null,
+      "icon": null,
+      "appType": "web",
+      "tasks": [
+        { "id": "196", "name": "Verify Current Survey Monkey setup" },
+        { "id": "197", "name": "Understand Microsoft Forms Survey Setup" }
+      ]
+    },
+    {
+      "id": "55",
+      "name": "Grasp Rules Replacement",
+      "url": null,
+      "icon": null,
+      "appType": "web",
+      "tasks": [
+        { "id": "274", "name": "Create/Apply Rules on Dummy DB" },
+        { "id": "211", "name": "Proof Of Concepts" }
+      ]
+    },
+    {
+      "id": "56",
+      "name": "De-Implementation Project Plan Template",
+      "url": null,
+      "icon": null,
+      "appType": "web",
+      "tasks": [
+        { "id": "219", "name": "Create Smartsheet Plan" },
+        {
+          "id": "220",
+          "name": "Obtain or Build Email Alias for all key groups"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "name": "ATG Global Leadership Workboard",
+      "url": "https://atgtravel.sharepoint.com/sites/AcmeCorpLeadershipWorkboard",
+      "icon": "workbench-icon.png",
+      "appType": "web",
+      "tasks": [
+        { "id": "221", "name": "Global ATG Leadership Workboard site creation" }
+      ]
+    },
+    {
+      "id": "58",
+      "name": "Data Cleanser SFTP Setup (For BCD)",
+      "url": null,
+      "icon": null,
+      "appType": "web",
+      "tasks": []
+    },
+    {
+      "id": "59",
+      "name": "ATG Approve V2",
+      "url": null,
+      "icon": null,
+      "appType": "web",
+      "tasks": [
+        { "id": "256", "name": "Finalize the Declined Queue PCC Process" }
+      ]
+    },
+    {
+      "id": "60",
+      "name": "ATG Extra V3.1",
+      "url": null,
+      "icon": null,
+      "appType": "web",
+      "tasks": [
+        { "id": "267", "name": "Setup all Entities based on Organization" },
+        { "id": "268", "name": "Add Client/Country levels" },
+        { "id": "283", "name": "Enhance Look & Feel" }
+      ]
+    },
+    {
+      "id": "61",
+      "name": "ATG|Covid Hotline Research Request & Workbench",
+      "url": null,
+      "icon": null,
+      "appType": "web",
+      "tasks": [{ "id": "275", "name": "Complete the Workbench" }]
+    },
+    {
+      "id": "62",
+      "name": "Move Local ATG Machines to Cloud (Fouad's Machine & HR Feed)",
+      "url": null,
+      "icon": null,
+      "appType": "web",
+      "tasks": []
+    },
+    {
+      "id": "63",
+      "name": "VW Transactions Data to BCD",
+      "url": null,
+      "icon": null,
+      "appType": "web",
+      "tasks": [{ "id": "264", "name": "Data Doctors R & D and Create Script" }]
+    },
+    {
+      "id": "64",
+      "name": "Leadership Workboard (LWB)",
+      "url": null,
+      "icon": null,
+      "appType": "web",
+      "tasks": [{ "id": "278", "name": "ATG LWB Creation" }]
+    },
+    {
+      "id": "94",
+      "name": "test project 2021",
+      "url": "https://www.google.com/",
+      "icon": "0cdf300600e6fa93cecde6352a4503bffb305bad.png",
+      "appType": "web",
+      "tasks": []
+    },
+    {
+      "id": "95",
+      "name": "Gmail",
+      "url": "https://mail.google.com/",
+      "icon": "40efd166a181ad3bf5fdf4675db908b0da086a2c.png",
+      "appType": "web",
+      "tasks": [{ "id": "298", "name": "Account Creation" }]
+    },
+    {
+      "id": "96",
+      "name": "Desktop 1",
+      "url": "",
+      "icon": "3f4166f282a4abfc33f8e1047ba0f3f04ab9d7d2.png",
+      "appType": "desktop",
+      "tasks": [{ "id": "299", "name": "New one" }]
+    }
+  ],
+  "isLoggedOut": "1",
+  "hrefweb": "https://atgtravel.com/portal/power_bi/",
+  "task_id": "69",
+  "sessionId": 1,
+  "UserData": [
+    {
+      "appname": {},
+      "app_link": "QzpcXFByb2dyYW0gRmlsZXNcXEZpbGVaaWxsYSBGVFAgQ2xpZW50XFxmaWxlemlsbGEuZXhl"
+    },
+    {
+      "appname": {},
+      "app_link": "QzpcXFByb2dyYW0gRmlsZXNcXEZpbGVaaWxsYSBGVFAgQ2xpZW50XFxmaWxlemlsbGEuZXhl"
+    },
+    {
+      "appname": {},
+      "app_link": "QzpcXFByb2dyYW0gRmlsZXNcXEZpbGVaaWxsYSBGVFAgQ2xpZW50XFxmaWxlemlsbGEuZXhl"
+    },
+    {
+      "appname": {},
+      "app_link": "QzpcXFByb2dyYW0gRmlsZXNcXEZpbGVaaWxsYSBGVFAgQ2xpZW50XFxmaWxlemlsbGEuZXhl"
+    },
+    {
+      "appname": {},
+      "app_link": "QzpcXFByb2dyYW0gRmlsZXNcXEZpbGVaaWxsYSBGVFAgQ2xpZW50XFxmaWxlemlsbGEuZXhl"
+    },
+    {
+      "appname": {},
+      "app_link": "QzpcXFByb2dyYW0gRmlsZXNcXEZpbGVaaWxsYSBGVFAgQ2xpZW50XFxmaWxlemlsbGEuZXhl"
+    },
+    {
+      "appname": {},
+      "app_link": "QzpcXFByb2dyYW0gRmlsZXNcXEZpbGVaaWxsYSBGVFAgQ2xpZW50XFxmaWxlemlsbGEuZXhl"
+    },
+    {
+      "appname": {},
+      "app_link": "QzpcXFByb2dyYW0gRmlsZXNcXEZpbGVaaWxsYSBGVFAgQ2xpZW50XFxmaWxlemlsbGEuZXhl"
+    },
+    {
+      "appname": {},
+      "app_link": "QzpcXFByb2dyYW0gRmlsZXNcXEZpbGVaaWxsYSBGVFAgQ2xpZW50XFxmaWxlemlsbGEuZXhl"
+    },
+    {
+      "appname": {},
+      "app_link": "QzpcXFByb2dyYW0gRmlsZXNcXEZpbGVaaWxsYSBGVFAgQ2xpZW50XFxmaWxlemlsbGEuZXhl"
+    },
+    {
+      "appname": {},
+      "app_link": "QzpcXFByb2dyYW0gRmlsZXNcXEZpbGVaaWxsYSBGVFAgQ2xpZW50XFxmaWxlemlsbGEuZXhl"
+    },
+    {
+      "appname": {},
+      "app_link": "QzpcXFByb2dyYW0gRmlsZXNcXEZpbGVaaWxsYSBGVFAgQ2xpZW50XFxmaWxlemlsbGEuZXhl"
+    }
+  ],
+  "isLoggedIn": "1",
+  "userFirstname": "WWFzaXIg",
+  "userLastname": "U2hhdWthdCA=",
+  "userStaffID": "NQ==",
+  "isTaskTimerRunning": "1"
+}

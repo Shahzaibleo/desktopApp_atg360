@@ -1,0 +1,85 @@
+{
+  "name": "ATG360",
+  "version": "1.1.0",
+  "description": "ATG 360 Time Tracking",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron  --trace-warnings",
+    "build": "electron-builder build --win --publish always",
+    "deploy": "electron-builder build --win --publish always"
+  },
+  "build": {
+    "appId": "atg-360",
+    "win": {
+      "executableName": "atg360",
+      "target": [
+        "nsis"
+      ],
+      "icon": "app/src/includes/images/appicon/atg-360-desktop.ico"
+    },
+    "publish": {
+      "provider": "github",
+      "token": "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"
+    },
+    "nsis": {
+      "installerIcon": "app/src/includes/images/appicon/atg-360-desktop.ico",
+      "uninstallerIcon": "app/src/includes/images/appicon/atg-360-desktop.ico",
+      "uninstallDisplayName": "ATG360",
+      "license": "license.txt",
+      "oneClick": false,
+      "createDesktopShortcut": true,
+      "allowToChangeInstallationDirectory": true
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Shahzaibleo/desktopApp_atg360.git"
+  },
+  "author": "YShaukat",
+  "devDependencies": {
+    "electron": "^21.0.0",
+    "electron-builder": "^23.3.3"
+  },
+  "dependencies": {
+    "active-windows": "^0.1.14",
+    "atob": "^2.1.2",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "btoa": "^1.2.1",
+    "dragula": "^3.7.3",
+    "electron-context-menu": "^3.0.0",
+    "electron-json-config": "^1.5.3",
+    "electron-log": "^4.4.1",
+    "electron-packager": "^15.2.0",
+    "electron-promise-ipc": "^2.2.4",
+    "electron-tabs": "^0.15.0",
+    "electron-updater": "^5.3.0",
+    "find-process": "^1.4.7",
+    "fs": "*",
+    "fs-extra": "^9.1.0",
+    "get-title-at-url": "^1.1.8",
+    "getmac": "^5.20.0",
+    "iconv-lite": "^0.4.24",
+    "jquery": "^3.6.0",
+    "js": "^0.1.0",
+    "macaddress": "^0.5.3",
+    "moment-timezone": "^0.5.37",
+    "mysql": "^2.18.1",
+    "natives": "^1.1.6",
+    "network": "^0.6.1",
+    "node-cron": "^3.0.0",
+    "node-gyp": "^9.1.0",
+    "node-macaddress": "^0.2.4",
+    "node-process-windows": "^0.0.2",
+    "node-webshot": "^1.0.4",
+    "os": "^0.1.2",
+    "popper": "^1.0.1",
+    "prebuild-install": "^7.1.1",
+    "ps-list": "^8.1.0",
+    "ps-node": "^0.1.6",
+    "request": "^2.88.2",
+    "select2": "*",
+    "which": "^2.0.2"
+  }
+}

@@ -1,0 +1,315 @@
+body {
+    background: rgba(0, 0, 0, 0);
+    text-align: center;
+    /* -webkit-app-region: drag; */
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.right-toggle-menu {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 425px;
+    top: 0;
+    margin: auto;
+    overflow: hidden;
+    width: 400px;
+}
+button.right-swipe-button {
+    background-color: #0c425f;
+    border: 1px solid #0c425f;
+    width: 110px;
+    height: 110px;
+    border-radius: 50% 0 0 50%;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    bottom: 158px;
+    right: 0;
+    z-index: 9999;
+}
+button.right-swipe-button span {
+    color: #FFF;
+    font-size: 23px;
+    width: 50px;
+    display: block;
+    margin: auto;
+    position: relative;
+    z-index: 9;
+    font-weight: 900;
+    line-height: 20px;
+    right: 12px;
+}
+button.right-swipe-button span.floating-timer {
+    position: absolute;
+    z-index: 999;
+    left: -4px;
+    top: 22px;
+}
+button.right-swipe-button small {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    width: 26px;
+    display: block;
+    line-height: 22px;
+    position: absolute;
+    top: 22px;
+    right: 20px;
+}
+button.right-swipe-button span small {
+    font-weight: 900;
+    width: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+button.right-swipe-button span.drag-button {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.swiper-list.three-column {
+    width: 0;
+    transition: all 0.99s ease;
+    /* transform: scale(0); */
+    float: right;
+    text-align: right;
+    height: 425px;
+    position: relative;
+    right: -350px;
+}
+.main .swiper-list.three-column {
+    width: 350px;
+    /* transform: scale(1); */
+    right: 0;
+    transition: all 0.99s ease;
+}
+.swipe-icons-list li i {
+    width: 50px;
+    height: 50px;
+    min-width: 50px;
+    background-color: white;
+    border-radius: 50%;
+    background-position: center center;
+    margin: auto;
+    position: relative;
+    display: flex;
+    background-size: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+ul.swipe-icons-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.swipe-icons-div {
+    width: 33%;
+}
+.swipe-icons-div.four-icons {
+    min-width: 190px;
+    position: absolute;
+    right: 0;
+    background-color: #07324c;
+    min-height: 275px;
+    border-radius: 300px 0 0 300px;
+    bottom: 75px;
+    padding: 15px 0 15px 15px;
+    box-sizing: border-box;
+}
+ul.swipe-icons-list li:first-child {
+    text-align: right;
+    padding-right: 15px;
+    display: inline-block;
+    float: right;
+    margin: 0px 15px 0 0;
+}
+ul.swipe-icons-list li:nth-child(2) {
+    position: relative;
+    top: 18px;
+    left: 37px;
+}
+ul.swipe-icons-list li:nth-child(3) {
+    left: 0;
+    top: 45px;
+}
+ul.swipe-icons-list li:nth-child(4) {
+    top: 70px;
+    left: 35px;
+}
+ul.swipe-icons-list li:nth-child(5) {
+    left: 110px;
+    top: 45px;
+}
+.swipe-icons-div.six-icons {
+    min-width: 275px;
+    min-height: 425px;
+    border-radius: 300px 0px 0 300px;
+    position: absolute;
+    right: 0;
+    background-color: #05283f;
+    padding: 15px 0 15px 15px;
+    box-sizing: border-box;
+    /* border-left: 5px solid #33bcdb; */
+    /* border-top: 5px solid #33bcdb; */
+}
+.six-icons ul.swipe-icons-list li:nth-child(2) {
+    left: 100px;
+    top: 20px;
+}
+.six-icons ul.swipe-icons-list li:nth-child(3) {
+    left: 32px;
+    top: 24px;
+}
+.six-icons ul.swipe-icons-list li:nth-child(4) {
+    left: 3px;
+    top: 68px;
+}
+.six-icons ul.swipe-icons-list li:nth-child(5) {
+    left: 25px;
+    top: 105px;
+}
+.six-icons ul.swipe-icons-list li:nth-child(6) {
+    left: 100px;
+    top: 126px;
+}
+.six-icons ul.swipe-icons-list li:nth-child(7) {
+    float: right;
+    top: 98px;
+    right: 15px;
+}
+.eight-icons .six-icons ul.swipe-icons-list li:nth-child(2) {
+    left: 110px;
+    top: 10px;
+}
+.eight-icons  .six-icons ul.swipe-icons-list li:nth-child(3) {
+    left: 46px;
+    top: 10px;
+}
+.eight-icons  .six-icons ul.swipe-icons-list li:nth-child(4) {
+    left: 8px;
+    top: 35px;
+}
+.eight-icons  .six-icons ul.swipe-icons-list li:nth-child(5) {
+    left: 5px;
+    top: 60px;
+}
+.eight-icons .six-icons ul.swipe-icons-list li:nth-child(6) {
+    left: 40px;
+    top: 81px;
+}
+.eight-icons .six-icons ul.swipe-icons-list li:nth-child(7) {
+    float: none;
+    top: 82px;
+    left: 102px;
+}
+.eight-icons .six-icons ul.swipe-icons-list li:nth-child(8) {
+    float: right;
+    top: 48px;
+    right: 20px;
+}
+
+
+.swiper-list {
+    display: flex;
+    align-items: flex-end;
+}
+ul.swipe-icons-list li {
+    display: block;
+    width: 50px;
+    position: relative;
+}
+ul.swipe-icons-list li:before {
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: #11788f;
+    border-radius: 50%;
+    left: -10px;
+    top: -11px;
+    transform: scale(0);
+}
+ul.swipe-icons-list li a {
+    position: relative;
+    z-index: 9;
+}
+ul.swipe-icons-list li:hover:before, ul.swipe-icons-list li.active:before {
+    transform: scale(1);
+}
+.swipe-icons-list li:hover i, ul.swipe-icons-list li.active i  {
+    background-color: #33bcdb;
+}
+.swipe-icons-div.six-icons .overlap-arrow {
+    position: absolute;
+    left: -72px;
+    top: 116px;
+}
+ul.swipe-icons-list li a img {
+    max-width: 25px;
+}
+.swiper-list.three-column.eight-icons ul.swipe-icons-list li:nth-child(n+9) {
+    display: none;
+}
+.swiper-list.three-column.eight-icons .swipe-icons-div.four-icons ul.swipe-icons-list li:nth-child(n+6) {
+    display: none;
+}
+
+
+@media screen and (max-width: 700px) {
+    .right-toggle-menu {
+        right: 15px;
+    }
+}
+
+
+
+/*.swipe-icons-list li i.fa-travel-space-icon {
+	background-image: url(../images/floaticons/travel-space-icon-hover.png);
+	background-repeat: no-repeat;  
+}
+.swipe-icons-list li i.fa-atg-engage-icon {
+	background-image: url(../images/floaticons/atg-engage-icon-hover.png); 
+	background-repeat: no-repeat;
+}
+.swipe-icons-list li i.fa-atg-extra-icon {
+	background-image: url(../images/floaticons/atg-extra-icon-hover.png); 
+	background-repeat: no-repeat;
+}
+.swipe-icons-list li i.fa-eqs-icon {
+	background-image: url(../images/floaticons/eqs-pnr-icon-hover.png); 
+	background-repeat: no-repeat;
+}
+.swipe-icons-list li i.fa-arc-icon {
+	background-image: url(../images/floaticons/arc-icon-hover.png); 
+	background-repeat: no-repeat;
+}
+.swipe-icons-list li i.fa-embed-tool-icon {
+	background-image: url(../images/floaticons/embed-tool-icon-hover.png); 
+	background-repeat: no-repeat;
+}
+.swipe-icons-list li i.fa-ibank-icon {
+	background-image: url(../images/floaticons/ibank-icon-hover.png); 
+	background-repeat: no-repeat;
+}
+.swipe-icons-list li i.fa-qc-icon {
+	background-image: url(../images/floaticons/qc-icon-hover.png); 
+	background-repeat: no-repeat;
+}
+.swipe-icons-list li i.fa-atg-sabre-icon {
+	background-image: url(../images/floaticons/sabre-icon-hover.png); 
+	background-repeat: no-repeat;
+}
+.swipe-icons-list li i.fa-fz-icon {
+	background-image: url(../images/fz-icon-hover.png); 
+	background-repeat: no-repeat;
+}
+.swipe-icons-list li i.fa-atg-workbench-icon {
+    background-image: url(../images/floaticons/workbench-icon-hover.png); 
+    background-repeat: no-repeat;
+}*/
