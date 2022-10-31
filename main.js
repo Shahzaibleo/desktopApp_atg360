@@ -141,6 +141,23 @@ function createWindow() {
     }
 
   });
+
+  ipcMain.once('ready-to-show', () => {
+    autoUpdater.checkForUpdatesAndNotify();
+  });
+  
+  ipcMain.on('app_version', (event) => {
+    event.sender.send('app_version', { version: app.getVersion() });
+  });
+  
+  autoUpdater.on('update-available', () => {
+    win2.webContents.send('update_available');
+  });
+  autoUpdater.on('update-downloaded', () => {
+    win2.webContents.send('update_downloaded');
+  });
+  
+  // auto updater code end
 }
 
 app.on('ready', createWindow);
@@ -923,14 +940,4 @@ ipcMain.handle('getCacheValues', (event, ...args) => {
 //   }
 // });
 
-ipcMain.on('app_version', (event) => {
-  event.sender.send('app_version', { version: app.getVersion() });
-});
 
-autoUpdater.on('update-available', () => {
-  mainWindow.webContents.send('update_available');
-});
-autoUpdater.on('update-downloaded', () => {
-  mainWindow.webContents.send('update_downloaded');
-});
-// auto updater code end
